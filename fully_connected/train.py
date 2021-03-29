@@ -125,7 +125,7 @@ model.load_state_dict(checkpoint['model_state_dict'])
 #.load_state_dict(checkpoint['optimizer_state_dict'])
 epoch = checkpoint['epochs']
 loss = checkpoint['loss']
-
+#####TESTING MODE
 model.eval()
 
 
